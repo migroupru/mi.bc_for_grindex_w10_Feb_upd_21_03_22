@@ -1,8 +1,19 @@
-/* Whole document: */
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Regular.ttf") format("truetype"),
+       url("fonts/Montserrat-Light.ttf") format("truetype"),
+       url("fonts/Montserrat-ExtraBold.ttf") format("truetype");
+  
+   font-family: "ZillaSlabHighlight";
+   src: url("fonts/ZillaSlabHighlight-Bold.ttf") format("truetype")
+}
+
+
 body{
   font-family: Montserrat;
 }
-/* Headers */
+
+
 h1, h2 {
   font-family: Montserrat Extrabold;
 }
